@@ -39,3 +39,15 @@ python src/modelo_clasificacion_sesgo.py
 ## Nota de uso responsable
 
 El dataset es pequeño y curado manualmente; los resultados deben interpretarse como **línea base exploratoria** y no como evaluación definitiva.
+
+## Dashboard narrativo
+
+Genera un dashboard HTML con gráficos y storytelling:
+
+```bash
+python src/generar_dashboard_storytelling.py
+```
+
+Archivo de salida:
+
+- `reports/dashboard_storytelling.html`
