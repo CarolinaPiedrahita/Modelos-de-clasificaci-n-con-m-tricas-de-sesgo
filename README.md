@@ -51,3 +51,4 @@ python src/generar_dashboard_storytelling.py
 Archivo de salida:
 
 - `reports/dashboard_storytelling.html`
+- `https://htmlpreview.github.io/?https://github.com/CarolinaPiedrahita/Modelos-de-clasificaci-n-con-m-tricas-de-sesgo/blob/main/reports/dashboard_storytelling.html`
