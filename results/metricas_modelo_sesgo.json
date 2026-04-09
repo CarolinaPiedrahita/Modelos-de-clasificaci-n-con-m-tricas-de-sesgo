@@ -1,0 +1,72 @@
+{
+  "data": {
+    "rows_total": 26,
+    "rows_train": 18,
+    "rows_test": 8,
+    "target_labels": [
+      "computacion_cuantica",
+      "ia_generativa"
+    ],
+    "positive_class": "computacion_cuantica"
+  },
+  "metrics": {
+    "accuracy": 1.0,
+    "precision_positive": 1.0,
+    "recall_positive": 1.0,
+    "f1_positive": 1.0,
+    "confusion_matrix": {
+      "tp": 3,
+      "fp": 0,
+      "tn": 5,
+      "fn": 0
+    }
+  },
+  "bias": {
+    "region": {
+      "group_rates": {
+        "global": {
+          "n": 3,
+          "prediction_positive_rate": 0.3333,
+          "true_positive_rate": 1.0
+        },
+        "europa": {
+          "n": 3,
+          "prediction_positive_rate": 0.6667,
+          "true_positive_rate": 1.0
+        },
+        "usa": {
+          "n": 1,
+          "prediction_positive_rate": 0.0,
+          "true_positive_rate": null
+        },
+        "asia": {
+          "n": 1,
+          "prediction_positive_rate": 0.0,
+          "true_positive_rate": null
+        }
+      },
+      "demographic_parity_difference": 0.6667,
+      "equal_opportunity_difference": 0.0
+    },
+    "idioma": {
+      "group_rates": {
+        "ingles": {
+          "n": 7,
+          "prediction_positive_rate": 0.4286,
+          "true_positive_rate": 1.0
+        },
+        "multilingue": {
+          "n": 1,
+          "prediction_positive_rate": 0.0,
+          "true_positive_rate": null
+        }
+      },
+      "demographic_parity_difference": 0.4286,
+      "equal_opportunity_difference": null
+    }
+  },
+  "notes": [
+    "Dataset pequeño y curado manualmente; usar solo como línea base demostrativa.",
+    "Las métricas de sesgo dependen del desbalance de subgrupos y tamaño muestral."
+  ]
+}
